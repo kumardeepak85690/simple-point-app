@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>My Paint</title>
+    <link href="styles.css" rel="stylesheet" />
+    
+  </head>
+
+  <body>
+    <div style="text-align: center;"><h1>Circle</h1></div>
+    <div id="statusMessage" style="text-align: center; font-size:25px; margin-top: 60px;"> </div>
+    <canvas id="canvas" width="600" height="600"></canvas>
+
+    <a class="tooltipClear" href="#">
+      <button
+        id="btnClear"
+        src="eraseButton.jpg"
+        onclick="drawScreen()"
+        alt="Erase"
+      >
+        Reset
+      </button>
+    </a>
+    <script src="script.js"></script>
+  </body>
+</html>
